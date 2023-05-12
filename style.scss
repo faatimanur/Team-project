@@ -10,7 +10,34 @@
 }
 
 .container {
-    max-width: 1240px;
+    max-width: 1420px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+header{
+    background-color:#232536;
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 0;
+        .navbar{
+            display: flex;
+            gap: 32px;
+            a{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+                opacity: 0.6;
+            }
+            a:hover{
+                color: #FFD3AF;
+                transition-duration: 0.5s;
+            }
+        }
+    }
 }
