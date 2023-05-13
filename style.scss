@@ -41,3 +41,35 @@ header{
         }
     }
 }
+
+main{
+    .header{
+        margin-top: 96px;
+        .img{
+            display: block;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .text{
+            h2{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 58px;
+                color: #232536;
+                margin-bottom: 5px;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #232536;
+                opacity: 0.6;
+            }
+        }
+    }
+}
