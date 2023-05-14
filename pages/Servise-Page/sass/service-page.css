@@ -71,6 +71,9 @@ main .parent-box .header-left-box p {
   font-size: 16px;
   line-height: 24px;
 }
+main .parent-box .header-left-box button {
+  padding: 10px 20px;
+}
 main .parent-box .services {
   width: 294px;
   height: 245px;
