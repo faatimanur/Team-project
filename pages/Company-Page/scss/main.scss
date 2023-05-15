@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  // padding: 50px;
+}
+
+//  NAVBAR UCHUN STILLAR
+
+
+
+
+
+
+nav{
+    background-color:#232536;
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 0;
+        .navbar{
+            display: flex;
+            gap: 32px;
+            a{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+                opacity: 0.6;
+            }
+            a:hover{
+                color: #FFD3AF;
+                transition-duration: 0.5s;
+            }
+        }
+    }
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 50px;
+  .box {
+    padding: 0 470px 0 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    span {
+      padding-top: 24px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #000000;
+      opacity: 0.87;
+    }
+    h2 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 58px;
+      padding-top: 20px;
+      color: #232536;
+    }
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      padding-top: 24px;
+      color: #232536;
+      padding-bottom: 40px;
+      opacity: 0.87;
+    }
+  }
+}
+
+.hero {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url(../img/heroBasc.svg);
+  background-position-x: 942px;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+
+// MAIN UCUN STILLAR
+
+.story {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 96px 0;
+  .box1 {
+    padding-right: 180px;
+    span {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 28px;
+      color: #232536;
+    }
+    h2 {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 54px;
+      padding-top: 16px;
+      color: #232536;
+    }
+    p {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      padding-top: 24px;
+      color: #232536;
+      opacity: 0.87;
+    }
+
+    .rectangle {
+      width: 16px;
+      height: 16px;
+      background-color: #666dff;
+      margin-bottom: 16px;
+    }
+  }
+  .box2 {
+    background: rgba(255, 211, 175, 0.57);
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding: 62px 136px 80px 100px;
+      span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        color: #232536;
+      }
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        padding-top: 5px;
+        color: #232536;
+        opacity: 0.87;
+      }
+      li {
+        padding-right: 64px;
+      }
+    }
+  }
+}
+.sec1_logos {
+  padding-bottom: 96px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+// 2-SECTION UCHUN STILLAR
+
+.sec2 {
+  background: #ecf8f9;
+}
+.expertise {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .box1 {
+    padding-top: 142px;
+    padding-right: 110px;
+    padding-bottom: 154px;
+    span {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #000000;  
+        opacity: 0.87;
+    }
+    h2{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+padding-top: 16px;
+color: #232536;
+    }
+    p{
+        font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+padding-top: 24px;
+color: #5D5F6D;
+    }
+  }
+
+  .box2{
+    padding: 96px 0 ;
+    .rectagle{
+        width: 16px;
+        height: 16px;
+        background-color: #666dff;
+       
+    }
+    ul{
+        display: grid;
+        gap: 12px;
+    }
+    li{
+      display: flex;
+      flex-wrap: wrap;
+      background-color: 
+      #FFFFFF;
+    
+      width: 515px;
+      height: 140px;
+
+      img{
+        position: relative;
+        top: 25px;
+        left: 32px;
+        // right: 16px;
+        bottom: 61px;
+
+      }
+
+h4{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+position: relative;
+top: 32px;
+left:50px ;
+bottom: 8px;
+right: 283px;
+color: #000000;
+}
+
+      p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+       margin: 18px 117px 32px 95px;
+ 
+        color: #5D5F6D;
+     
+     
+      }
+    }
+  }
+}
+
+
+
+
+// 3-SECTION UCHUN STILLAR
+.vision{
+  padding-top: 96px;
+  .box{
+    padding-right: 500px;
+    padding-bottom: 64px;
+  }
+  .box2{
+    display: flex;
+    justify-content: center;
+  }
+ 
+  span{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #000000;
+opacity: 0.87;
+  }
+  h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+padding-top: 16px;
+color: #232536;
+  }
+  p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #232536;
+opacity: 0.6;
+padding-top: 24px;
+  }
+}
+
+
+// 4-SECTION UCHUN STILLAR
+
+.meet{
+  padding-bottom: 96px;
+  .box1{
+    padding-top: 96px;
+    padding-bottom: 64px;
+    padding-right: 690px;
+    span{
+      font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+letter-spacing: 3px;
+text-transform: uppercase;
+
+color: #000000;
+
+opacity: 0.87;
+    }
+    h2{
+      font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+padding-top: 16px;
+
+
+color: #232536;
+    }
+    p{
+      font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+padding-top: 24px;
+
+
+color: #232536;
+
+opacity: 0.87;
+    }
+  }
+  .box2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+  }
+  .box3{
+   position: relative;
+    .img1{
+position: absolute;
+top: 0;
+left: 0;
+
+
+    }
+    .img2{
+      position: relative;
+      left: 1226px;
+
+    }
+    display: flex;
+   align-items: center;
+   gap: 80px;
+   background: #666DFF;
+
+
+   .card{
+// padding-right: 100px;
+  
+   span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+   }
+   h2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+padding-top: 13px;
+color: #FFFFFF;
+   }
+  }
+  input{
+    padding: 20px 202px 20px 20px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+margin-right: 140px;
+text-align: right;
+color: #232536;
+border: none;
+background-color: #FFFFFF;
+  }
+  }
+}

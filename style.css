@@ -40,7 +40,6 @@ header .navigation .navbar a:hover {
   color: #FFD3AF;
   transition-duration: 0.5s;
 }
-
 .hero {
   padding-top: 96px;
   padding-bottom: 32px;
@@ -163,17 +162,30 @@ main .about-us .about__us__con .about__us__top .au__top__left h5 {
   opacity: 0.87;
 }
 main .about-us .about__us__con .about__us__top .au__top__left h2 {
+
+.header {
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+ .header .img {
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+ .header .text h2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
   line-height: 58px;
   color: #232536;
+
 }
-main .about-us .about__us__con .about__us__top .au__top__right {
+.about-us .about__us__con .about__us__top .au__top__right {
   width: 547px;
 }
-main .about-us .about__us__con .about__us__top .au__top__right h3 {
+ .about-us .about__us__con .about__us__top .au__top__right h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -183,38 +195,36 @@ main .about-us .about__us__con .about__us__top .au__top__right h3 {
   margin-top: 23px;
   margin-bottom: 16px;
 }
-main .about-us .about__us__con .about__us__top .au__top__right p {
+.about-us .about__us__con .about__us__top .au__top__right p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #5D5F6D;
-}
-main .about-us .about__us__con .about__us__cen {
+  color: #5D5F6D;.about-us .about__us__con .about__us__cen {
   display: flex;
   margin-bottom: 48px;
   justify-content: space-between;
 }
-main .about-us .about__us__con .about__us__cen .au__cen-img1 {
+ .about-us .about__us__con .about__us__cen .au__cen-img1 {
   width: 418px;
 }
-main .about-us .about__us__con .about__us__cen .au__cen-img2 {
+ .about-us .about__us__con .about__us__cen .au__cen-img2 {
   width: 419px;
 }
-main .about-us .about__us__con .about__us__cen .au__cen-img3 {
+.about-us .about__us__con .about__us__cen .au__cen-img3 {
   width: 403px;
 }
-main .about-us .about__us__con .about__us__bot {
+ .about-us .about__us__con .about__us__bot {
   display: flex;
   align-items: center;
   gap: 66px;
 }
-main .about-us .about__us__con .about__us__bot .au__bot__data1 {
+.about-us .about__us__con .about__us__bot .au__bot__data1 {
   width: 135px;
   height: 96px;
 }
-main .about-us .about__us__con .about__us__bot .au__bot__data1 h3 {
+.about-us .about__us__con .about__us__bot .au__bot__data1 h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -222,11 +232,11 @@ main .about-us .about__us__con .about__us__bot .au__bot__data1 h3 {
   line-height: 54px;
   color: #232536;
 }
-main .about-us .about__us__con .about__us__bot .au__bot__data2 {
+ .about-us .about__us__con .about__us__bot .au__bot__data2 {
   width: 78px;
   height: 96px;
 }
-main .about-us .about__us__con .about__us__bot .au__bot__data2 h3 {
+ .about-us .about__us__con .about__us__bot .au__bot__data2 h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -234,11 +244,11 @@ main .about-us .about__us__con .about__us__bot .au__bot__data2 h3 {
   line-height: 54px;
   color: #232536;
 }
-main .about-us .about__us__con .about__us__bot .au__bot__data3 {
+ .about-us .about__us__con .about__us__bot .au__bot__data3 {
   width: 103px;
   height: 96px;
 }
-main .about-us .about__us__con .about__us__bot .au__bot__data3 h3 {
+ .about-us .about__us__con .about__us__bot .au__bot__data3 h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -246,12 +256,12 @@ main .about-us .about__us__con .about__us__bot .au__bot__data3 h3 {
   line-height: 54px;
   color: #232536;
 }
-main .about-us .about__us__con .about__us__bot .au__bot__data4 {
+ .about-us .about__us__con .about__us__bot .au__bot__data4 {
   width: 96px;
   height: 96px;
   margin-right: 480px;
 }
-main .about-us .about__us__con .about__us__bot .au__bot__data4 h3 {
+ .about-us .about__us__con .about__us__bot .au__bot__data4 h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -259,7 +269,7 @@ main .about-us .about__us__con .about__us__bot .au__bot__data4 h3 {
   line-height: 54px;
   color: #232536;
 }
-main .about-us .about__us__con .about__us__bot a {
+.about-us .about__us__con .about__us__bot a {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -582,6 +592,10 @@ main .about-us .about__us__con .about__us__bot a {
 .process-li-r p {
   width: 289px;
   height: 72px;
+
+  margin-bottom: 5px;
+}
+.header .text p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -589,4 +603,36 @@ main .about-us .about__us__con .about__us__bot a {
   line-height: 24px;
   color: #232536;
   opacity: 0.6;
-}/*# sourceMappingURL=style.css.map */
+
+}
+ .box-container {
+  background: #ECF8F9;
+  padding: 96px 220px;
+}
+ .box-container h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 24px;
+}
+ .box-container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+ .box-container h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+
+ }
+}
+}
