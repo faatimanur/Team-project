@@ -43,6 +43,7 @@ header{
 }
 
 main{
+    margin-bottom: 96px;
     .header{
         margin-top: 96px;
         margin-bottom: 72px;
@@ -99,6 +100,89 @@ main{
             font-size: 24px;
             line-height: 36px;
             margin-bottom: 16px;
+        }
+    }
+}
+
+
+footer{
+    .cards{
+        padding-top: 32px;
+        padding-bottom: 14px;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 204px;
+        .card-1{
+            width: 458px;
+            h2{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 58px;
+                color: #232536;
+                margin-bottom: 40px;
+            }
+            h4{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 36px;
+                color: #232536;
+                margin-bottom: 20px;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 28px;
+                color: #232536;
+            }
+        }
+        .card-2{
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 120px;
+            .list-1{
+                li{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 28px;
+                    a{
+                        color: #232536;
+                    }
+                }
+            }
+            .list-item{
+                h6{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 28px;
+                    margin-bottom: 13px;
+                    a{
+                        color: #232536;
+                    }
+                }
+                li{
+                    margin-bottom: 12px;
+                    a{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #232536;
+                    }
+                }
+            }
         }
     }
 }
