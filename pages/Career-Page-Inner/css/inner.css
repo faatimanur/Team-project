@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+nav {
+  background-color: #232536;
+}
+nav .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+}
+nav .navigation .navbar {
+  display: flex;
+  gap: 32px;
+}
+nav .navigation .navbar a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+nav .navigation .navbar a:hover {
+  color: #FFD3AF;
+  transition-duration: 0.5s;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 56px;
+  padding-top: 96px;
+}
+.hero .box1 {
+  width: 490px;
+  padding-top: 41px;
+}
+.hero .box1 span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+  opacity: 0.87;
+}
+.hero .box1 h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  padding-bottom: 18px;
+  color: #232536;
+}
+.hero .box1 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 50px;
+  color: #232536;
+  opacity: 0.87;
+}
+.hero .box1 .click {
+  width: 182px;
+  padding: 0 0 20px;
+  background: linear-gradient(180deg, #444CFC 0%, #444CFC 100%);
+}
+.hero .box1 .click a {
+  display: flex;
+  align-items: flex-start;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 0.87;
+  gap: 15px;
+}
+.hero .box1 .click a div {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.hero .box2 {
+  background-color: #FFE0C7;
+  display: flex;
+  align-items: flex-start;
+}
+.hero .box2 .title {
+  padding: 82px 62px 78px 80px;
+}
+.hero .box2 .title h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 24px;
+  color: #232536;
+}
+.hero .box2 .title li {
+  padding-bottom: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  color: #000000;
+}
+
+/*# sourceMappingURL=inner.css.map */
