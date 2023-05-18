@@ -52,6 +52,7 @@ nav .navigation .navbar a:hover {
   align-items: flex-start;
   gap: 56px;
   padding-top: 96px;
+  padding-bottom: 96px;
 }
 .hero .box1 {
   width: 490px;
@@ -136,6 +137,175 @@ nav .navigation .navbar a:hover {
   line-height: 24px;
   /* identical to box height, or 150% */
   color: #000000;
+}
+
+.detailes {
+  background-color: #ECF8F9;
+  padding: 0;
+}
+.detailes .box {
+  display: flex;
+  justify-content: center;
+  gap: 96px;
+  padding: 43px 0 33px;
+}
+.detailes .box span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.detailes .line {
+  width: 100%;
+  height: 4px;
+  background-color: #E0F1F2;
+}
+.detailes ul {
+  list-style: disc;
+  padding: 70px 219px 96px;
+}
+.detailes ul li {
+  padding-top: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.appley {
+  padding-top: 96px;
+}
+.appley h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  padding-bottom: 29px;
+  color: #232536;
+}
+.appley form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding-bottom: 96px;
+}
+.appley form input {
+  background-color: #F9F9FF;
+  border: none;
+  padding: 34px 250px 34px 40px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #232536;
+  opacity: 0.8;
+}
+.appley form .input {
+  grid-column: span 2;
+  padding: 34px 0 163px 40px;
+}
+.appley form .checkbox {
+  width: 36px;
+  height: 36px;
+  background-color: #454DFD;
+}
+.appley form .box {
+  margin-top: 45px;
+  padding-bottom: 36px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-right: 300px;
+  grid-column: span 2;
+}
+.appley form .box label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.8;
+}
+.appley form button {
+  width: 261px;
+  height: 64px;
+  background: linear-gradient(180deg, #444CFC 0%, #444CFC 100%);
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  opacity: 0.87;
+  padding-bottom: 10px;
+  padding-right: 35px;
+}
+.appley form button :nth-child(1) {
+  position: relative;
+  top: -10px;
+  left: -8px;
+}
+.appley form button :nth-child(2) {
+  position: relative;
+  top: 4px;
+  left: 13px;
+}
+
+.newslater .box3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  background: #666DFF;
+}
+.newslater .box3 .img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.newslater .box3 .img2 {
+  position: relative;
+  left: 1200px;
+}
+.newslater .box3 .card span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.newslater .box3 .card h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  padding-top: 13px;
+  color: #FFFFFF;
+}
+.newslater .box3 input {
+  padding: 20px 202px 20px 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 140px;
+  text-align: right;
+  color: #232536;
+  border: none;
+  background-color: #FFFFFF;
 }
 
 /*# sourceMappingURL=inner.css.map */
