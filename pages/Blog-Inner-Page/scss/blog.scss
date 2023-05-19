@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding:0 50px;
+}
+
+//  NAVBAR UCHUN STILLAR
+
+
+
+
+
+
+nav{
+    background-color:#232536;
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 50px;
+        .navbar{
+            display: flex;
+            gap: 32px;
+            a{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+                opacity: 0.6;
+            }
+            a:hover{
+                color: #FFD3AF;
+                transition-duration: 0.5s;
+            }
+        }
+    }
+}
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .box1{
+        padding-right: 200px;
+        
+    }
+}

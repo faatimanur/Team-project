@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+.about .box {
+  padding: 0 470px 0 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.about .box span {
+  padding-top: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.87;
+}
+.about .box h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  padding-top: 20px;
+  color: #232536;
+}
+.about .box p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 24px;
+  color: #232536;
+  padding-bottom: 40px;
+  opacity: 0.87;
+}
+
+.hero {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url(../img/heroBasc.svg);
+  background-position-x: 942px;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+
+.story {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 96px 0;
+}
+.story .box1 {
+  padding-right: 180px;
+}
+.story .box1 span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+}
+.story .box1 h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  padding-top: 16px;
+  color: #232536;
+}
+.story .box1 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 24px;
+  color: #232536;
+  opacity: 0.87;
+}
+.story .box1 .rectangle {
+  width: 16px;
+  height: 16px;
+  background-color: #666dff;
+  margin-bottom: 16px;
+}
+.story .box2 {
+  background: rgba(255, 211, 175, 0.57);
+}
+.story .box2 ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 62px 136px 80px 100px;
+}
+.story .box2 ul span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  color: #232536;
+}
+.story .box2 ul p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 5px;
+  color: #232536;
+  opacity: 0.87;
+}
+.story .box2 ul li {
+  padding-right: 64px;
+}
+
+.sec1_logos {
+  padding-bottom: 96px;
+}
+.sec1_logos ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec2 {
+  background: #ecf8f9;
+}
+
+.expertise {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.expertise .box1 {
+  padding-top: 142px;
+  padding-right: 110px;
+  padding-bottom: 154px;
+}
+.expertise .box1 span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.87;
+}
+.expertise .box1 h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  padding-top: 16px;
+  color: #232536;
+}
+.expertise .box1 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 24px;
+  color: #5D5F6D;
+}
+.expertise .box2 {
+  padding: 96px 0;
+}
+.expertise .box2 .rectagle {
+  width: 16px;
+  height: 16px;
+  background-color: #666dff;
+}
+.expertise .box2 ul {
+  display: grid;
+  gap: 12px;
+}
+.expertise .box2 li {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  width: 515px;
+  height: 140px;
+}
+.expertise .box2 li img {
+  position: relative;
+  top: 25px;
+  left: 32px;
+  bottom: 61px;
+}
+.expertise .box2 li h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  position: relative;
+  top: 32px;
+  left: 50px;
+  bottom: 8px;
+  right: 283px;
+  color: #000000;
+}
+.expertise .box2 li p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 18px 117px 32px 95px;
+  color: #5D5F6D;
+}
