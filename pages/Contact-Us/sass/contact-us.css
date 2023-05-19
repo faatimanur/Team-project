@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+section {
+  background: white;
+}
+section .header {
+  height: 816px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+section .header .header-left {
+  width: 60%;
+}
+section .header .header-left .header-left_txt {
+  ine-height: 200%;
+}
+section .header .header-left .form {
+  line-height: 200%;
+}
+section .header .header-left .form input {
+  margin: 1rem 0;
+}
+section .header .header-left .form button {
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(68, 76, 252);
+  color: #fff;
+  border: none;
+}
+section .header .header-left .form button .shapes {
+  position: relative;
+  top: -20px;
+  left: -40px;
+}
+section .header .header-left .form button i {
+  font-size: 18px;
+}
+section .header .header-left .form button .word {
+  position: relative;
+  left: -20px;
+}
+section .header .header-right {
+  width: 40%;
+}
+
+.label-before, .field input:focus + label::before, .field input:valid + label::before {
+  line-height: 20px;
+  font-size: 12px;
+  top: -10px;
+  background: #fff;
+  padding: 0 6px;
+  left: 9px;
+}
+
+.field {
+  position: relative;
+  margin-bottom: 15px;
+}
+.field label::before {
+  content: attr(title);
+  position: absolute;
+  top: 0;
+  left: 15px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #777;
+  transition: 300ms all;
+}
+.field input {
+  width: 405px;
+  line-height: 40px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #222;
+  border: 1px solid #ccc;
+  border: none;
+  border-radius: 3px;
+  border-bottom: 1px solid #000;
+}
+.field input:focus {
+  outline: 0;
+  border-color: blue;
+}
+.field input:valid + label::before {
+  content: attr(data-title);
+}
+.field input:focus + label::before {
+  color: blue;
+}
+
+.map-section {
+  height: 409px;
+}
+
+.footer-top {
+  display: flex;
+  height: 560px;
+}
+.footer-top .footer-top_right {
+  display: flex;
+}/*# sourceMappingURL=contact-us.css.map */

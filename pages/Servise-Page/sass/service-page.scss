@@ -51,16 +51,19 @@ header {
 main {
     background: $main-bg_color;
 
-    .parent-box {
+    .main {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         height: 574px;
         font-family: 'Poppins';
 
+
         .header-left-box {
             width: 624px;
             height: 382px;
+            gap: 50px;
+            margin-top: 5rem;
 
             .our {
                 font-size: 14px;
@@ -73,30 +76,259 @@ main {
                 font-size: 40px;
                 line-height: 58px;
                 font-weight: 600;
+                margin: 1rem 0;
             }
 
             p {
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 24px;
+                margin: 1.5rem 0;
 
             }
-            button{
-                padding: 10px 20px;
+
+            button {
+                padding: 20px 40px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: $button-bg_color;
+                color: $color-1;
+                border: none;
+                .shapes {
+                    position: relative;
+                    top: -20px;
+                    left: -40px;
+                }
+                i{
+                    font-size: 18px;
+                }
+                .word{
+                    position: relative;
+                    left: -20px;
+                }
             }
         }
 
         .services {
             width: 294px;
             height: 245px;
-
+            margin-top: 5rem;
+            padding-top: 6.5rem;
+            margin-left: 25rem;
+            line-height: 200%;
             h4 {
                 font-weight: 600;
                 font-size: 24px;
                 font-family: 'Poppins';
-                line-height: 36px;
+                line-height: 200%;
             }
+
+        }
+    }
+}
+
+section {
+    background: $process-bg-color;
+    font-family: 'Poppins';
+
+    .process-section {
+        height: 852px;
+
+        .top-elem-box{
+            height: 216px;
+            display: flex;
+            margin: 6rem 0 1rem 0;
+
+            .section-top_txt{
+                width: 100%;
+                line-height: 200%;
+            }
+        }
+        .boxs-elem-box {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+            gap: 20px;  
+
+
+            .box {
+                width: 394px;
+                height: 164px;
+                margin: 10px;
+                padding: 1rem;
+                border: 1px solid $border-color;
+                display: flex;
+                flex-direction: column;
+
+                .box-txt-and-icon{
+                    display: flex;
+                }
+                .icons{
+                    padding: 10px 10px;
+                    margin-left: 1rem;
+                   
+                    .big{
+                        opacity: 1;
+                    }
+                }
+                h3{
+                    opacity: 0.5;
+                }
+                p{
+                    opacity: 0.5;
+                }
+                .shapes-box-bottom{
+                    margin-top: 1.28rem;
+                    margin-left: -1.1rem;
+                }
+                .shapes-box-top{
+                    margin-top: -10.28rem;
+                    margin-left: -1.1rem;
+                }
+            }
+        }
+    }
+}
+
+section {
+    .faetures-section {
+        height: 2900px;
+
+        .faeture-box {
+            display: flex;
+            justify-content: space-between;
             
+            .feature-box_txt{
+                margin-top: 5rem;
+            }
+            h4{
+                font-size: 18px ;
+            }
+            h3{
+                font-size: 2rem;
+                margin: 1.5rem 0;
+            }
+        }
+    }
+}
+
+section {
+    .cta-section {
+        height: 333px;
+        display: flex;
+        justify-content: space-between;
+        background: $cta-bg-color;
+        color: $color-1;
+
+        .cta-txt-box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: -10rem;
+            
+            p{
+                margin: 1rem 0;
+            }
+        }
+        
+        h3{
+            font-size: 2rem;
+            letter-spacing: .2rem;
+        }
+
+        .cta-input-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            input{
+                width: 454px;
+                height: 64px;
+                padding: 0 1rem;
+                text-align: left;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}
+
+footer {
+    
+    .parent-footer {
+        height: 560px;
+        font-family: 'Poppins';
+        .footer-top {
+            margin-top: 8rem;
+            display: flex;
+            justify-content: space-between;
+
+            .footer-left{
+                width: 50%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                .hand-box{
+                    font-size: 1.3rem;
+                    font-weight: bold;
+                }
+
+                h2{
+                    font-size: 2.5rem;
+                }
+            }
+
+             .footer-right{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                .link-list{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    
+                    .home-ul{
+                        ul li{
+                            margin: 1rem 0;
+                            font-weight: 700;
+                        }
+                    }
+                    .service-ul{
+                        ul li{
+                            margin: 1rem 0;
+                            
+                            &:first-child{
+                                font-weight: 800;
+                            }
+                        }
+                    }
+                    .about-ul{
+                        ul li{
+                            margin: 1rem 0;
+                            
+                            &:first-child{
+                                font-weight: 800;
+                            }
+                        }
+                    }
+                }
+
+                .contact-box{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 2rem;
+                }
+            }
+
+        }
+        .footer-bottom{
+            background: $footer-bg-color;
         }
     }
 }

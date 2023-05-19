@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import 'config';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+section{
+	background: white;
+	.header{
+		height: 816px;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 5rem;
+
+		.header-left{
+			width: 60%;
+
+			.header-left_txt{
+				ine-height: 200%;
+				
+			}
+			.form{
+
+				input{
+					margin: 1rem 0;
+				}
+				line-height: 200%;
+				button {
+					padding: 20px 40px;
+					font-size: 16px;
+					font-weight: 500;
+					line-height: 24px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					background: $button-bg_color;
+					color: $color-1;
+					border: none;
+					.shapes {
+						position: relative;
+						top: -20px;
+						left: -40px;
+					}
+					i{
+						font-size: 18px;
+					}
+					.word{
+						position: relative;
+						left: -20px;
+					}
+				}
+			}
+		}	
+		
+		.header-right{
+			width: 40%;
+		}
+	}
+}
+
+.label-before {
+	line-height: 20px;
+	font-size: 12px;
+	top: -10px;
+	background: #fff;
+	padding: 0 6px;
+	left: 9px;
+}
+
+
+.field {
+	position: relative;
+	margin-bottom: 15px;
+	label::before {
+		content: attr(title);
+		position: absolute;
+		top: 0;
+		left: 15px;
+		line-height: 40px;
+		font-size: 14px;
+		color: #777;
+		transition: 300ms all;
+	}
+	input {
+    width: 405px;
+    line-height: 40px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #222;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 1px solid #000;
+		&:focus {
+			outline: 0;
+			border-color: blue;
+		}
+		&:valid + label::before {
+			@extend .label-before;
+			content: attr(data-title);
+		}
+		&:focus + label::before {
+			@extend .label-before;
+			color: blue;
+		}
+	}
+}
+
+.map-section{
+	height: 409px;
+}
+
+.footer-top{
+	display: flex;
+	height: 560px;
+	.footer-top_right{
+		display: flex;
+	}
+}
