@@ -82,7 +82,7 @@ footer .cards .card-2 {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 120px;
+  gap: 100px;
 }
 footer .cards .card-2 .list-1 li {
   font-family: "Poppins";
@@ -115,4 +115,46 @@ footer .cards .card-2 .list-item li a {
   font-size: 14px;
   line-height: 20px;
   color: #232536;
+}
+footer .footer-bottom-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 16px 0 64px 0;
+}
+footer .footer-bottom-1 .bottom-left {
+  padding-top: 16px;
+  border-top: 2px solid black;
+}
+footer .footer-bottom-1 .bottom-left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #232536;
+}
+footer .footer-bottom-1 .bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+footer .footer-bottom-1 .bottom-right button {
+  background-color: #fff;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+footer .footer-bottom-1 .bottom-right button a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+}
+footer .footer-bottom-1 .bottom-right button a:hover {
+  color: #FFD3AF;
+  transition-duration: 0.5s;
 }/*# sourceMappingURL=global.css.map */
